@@ -1,0 +1,41 @@
+using System;
+public class Employee
+{
+  private int Id;
+  private string Name;
+  private double Salary;
+
+  public Employee(int id,string name,double salary)
+  {
+    Id=id;
+    Name=name;
+    Salary=salary;
+  }
+  
+  public void Display()
+  {
+    Console.WriteLine("employee id:"+ Id);
+    Console.WriteLine("employee Name:"+ Name);
+    Console.WriteLine("employee id:"+ Salary);
+
+  }
+}
+ class EmployeeSal
+ {
+ public static void Main(string[] args)
+ {
+   
+   Console.WriteLine("enter employee id:");
+   int id= int.Parse(Console.ReadLine());
+
+   Console.WriteLine("enter employee name:");
+   string name= Console.ReadLine();
+
+   Console.WriteLine("enter employee salary:");
+   double salary= double.Parse(Console.ReadLine());
+
+   Employee emp=new Employee(id,name,salary);
+   emp.Display();
+}
+}
+   

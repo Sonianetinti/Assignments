@@ -1,0 +1,161 @@
+Programs
+--------------------------------------
+
+*Compile time polymorphism
+
+using System;
+class Program 
+{
+ void print(int a, int b)
+{
+Console.WriteLine("Printing int: {0}", (a+b) );
+}
+void print(string c, string d) 
+{
+Console.WriteLine("Printing String:{0}" ,(c+d));
+}
+       
+static void Main(string[] args) 
+{
+Program prog = new Program();
+// Call print for sum of integers
+prog.print(5, 6);
+// Call to concatenate strings
+prog.print("Hello","World");
+Console.ReadKey();
+}
+}
+
+output:
+Printing int: 11
+Printing String:HelloWorld
+
+----------------------------------------
+Dynamic polymorphism
+
+using System;
+class Polygon
+{ 
+public virtual void render()
+{
+Console.WriteLine("Rendering Polygon...");
+}
+}
+class Square : Polygon
+{
+// overriding render() method 
+public override void render()
+{
+Console.WriteLine("Rendering Square...");
+}
+}
+class myProgram
+{
+public static void Main()
+{
+Polygon obj1 = new Polygon();
+obj1.render();
+// here, obj1 is the object of derived class Square 
+obj1 = new Square();
+// calls render() method of derived class Square
+obj1.render();
+}
+}
+
+output:
+Rendering Polygon...
+Rendering Square...
+
+
+
+-----------------------------------------
+Program for abstraction,inheritance and encapsulation
+
+using System;
+abstract class Employee
+{
+    public abstract void Work();
+}
+class EmployeeDetails : Employee
+{
+private string name;
+public EmployeeDetails(string name)
+{
+this.name=name;
+}
+public override void Work()
+{
+Console.WriteLine($"{name} is working in xx company.");
+}
+}
+class Program
+{
+static void Main(string[] args)
+{
+Employee emp=new EmployeeDetails("Bunny");
+emp.Work();
+}
+}
+
+output:
+Bunny is working in xx company.
+
+------------------------------------------
+Constructor
+
+using System;
+ class Employee
+ {
+     private string name;
+     public Employee(string name)
+     {
+         this.name=name;
+     }
+     public void Display()
+    {
+      Console.WriteLine($"Name is:{name}");
+    }
+ }
+ class Program
+{
+    public static void Main(string[] args)
+    {
+        Employee emp=new Employee("Harry");
+        emp.Display();
+    }
+}
+
+output:
+Name is:Harry
+
+
+---------------------------------------------
+Destructor
+
+using System;
+ class Employee
+ {
+     private string name;
+     public Employee(string name)
+     {
+         this.name=name;
+     }
+     public void Display()
+    {
+      Console.WriteLine($"Name is:{name}");
+    }
+ }
+ class Program
+{
+    public static void Main(string[] args)
+    {
+        Employee emp=new Employee("Harry");
+        emp.Display();
+    }
+}
+
+output:
+Name is:Harry
+Destructor called
+---------------------------------------------
+

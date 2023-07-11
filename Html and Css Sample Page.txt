@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .error {
+      color: red
+    }
+    .module-dropdown {
+      display: none;
+    }
+    #jee:checked~.module-dropdown.jee {
+      display: block
+    }
+    #dotnet:checked~.module-dropdown.dotnet {
+
+      display: block
+    }
+  </style>
+</head>
+<body style="background-color:blanchedalmond;">
+  <h1 align="center">Employee Details</h1>
+  <form align="center">
+      <label for="EmployeeNumber">Employee Number:</label>
+      <input type="text" id="EmployeeNumber" name="EmployeeNumber" maxlength="6" required>
+      <br>
+      <br>  
+    <label for="EmployeeName">Employee Name:</label>
+    <input type="text" id="EmployeeName" name="EmployeeName" maxlength="30" required>
+    <br>
+    <br>
+    <label for="domain"> Domain:</label>
+    <input type="radio" id="jee" name="name" value="JEE" required>
+    <label for="jee">JEE</label>
+    <input type="radio" id="dotnet" name="name" value=".NET" required>
+    <label for="dotnet">.NET</label>
+    <br>
+    <div class="module-dropdown jee">
+      <label for="jeemodule">Module Name</label>
+      <select id="jeemodule" name="jeemodule">
+        <option value="">Select a module</option>
+        <option value="Core Java">Core Java</option>
+        <option value="Servlet">Servlet</option>
+        <option value="Spring">Spring</option>
+      </select>
+    </div>
+    <div class="module-dropdown dotnet">
+      <label for="dotnetmodule">Module Name</label>
+      <select id="dotnetmodule" name="dotnetmodule">
+        <option value="">Select a module</option>
+        <option value="C#">C#</option>
+      </select>
+    </div>
+    <br>
+      <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

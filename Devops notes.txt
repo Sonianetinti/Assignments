@@ -1,0 +1,62 @@
+What is Virtualisation?
+Virtualization is technology that you can use to create virtual representation of servers,storage,networks and other physical machines.
+
+What is branching?
+Branching in azure devops refers to the practice of creating a separate line of development within a version control repository.It allows multiple team members to work on different features or fixes simultaneously without interfering with each others code.
+In Azure Devops, The most commonly used version control system is Git,Which provides robust branching capabilities.When we create a branch,we are essentially creating a snapshot of the codebase at a specific point in time.This branch can be used to isolate and develop new features, bug fixes or experiments without affecting the main codebase, known as the "master" or "main" branch.
+
+ 
+
+Types of branches?
+During the development, developers create different branches for specific use cases using the develop branch as the base. The following are some branches:
+1.Main branch:The main branch,also known as the "master" branch or "mainline" represents the stable and production-ready version of our codebase
+2.feature branch: feature branches are used to develop new features and branches off exclusively from the develop branch.
+3.hotfix branch: This is to deal with production issues where quick fixes are required. They can branch off from the master itself, but need to be merged to both master and develop branches.
+4.release branch: This branch is used to aggregate fixes and improvements and prepare for the production release. It will be branched from the develop branch and merged to both develop and master.
+
+ 
+
+What is Azure active?
+Azure Active Directory (Azure AD) is a cloud-based identity and access management service. Azure AD enables your employees access external resources, such as Microsoft 365, the Azure portal, and thousands of other SaaS applications. Azure Active Directory also helps them access internal resources like apps on your corporate intranet, and any cloud apps developed for your own organization.
+
+what is devops?
+
+Devops is a set of practices that combines software development and information technology operations to enhance collaboration and communication between development teams and operation team.
+
+Why do we need devops?
+Devops is important because it is a software development and operational approach that enables faster development of new products and easier maintenance of existing deployments.
+
+What is CI/CD?Explain how CI/CD works?
+CI and CD stands for continuous integration and continuous delivery/continuous deployement.
+CI is a modern software development practice in which incremental code changes are made frequently and reliably.
+CD is the automated delivery of completed code to environments like testing and development.CD provides an automated and consistent way for code to be delivered to these environments.
+
+Components of Devops
+1.Azure Boards:It is a work tracking system that helps teams plan,track and discuss work across the entire developmnet process.
+
+2.Azure Repos:Azure repos provides version control services for git and TFVC(Team foundation version control).It allows teams to manage their source code,collaborate on code changes and track version history. 
+It supports features like branching,merging,pull requests and code reviews.
+
+3.Azure Pipelines:Azure pipelines is a powerful continuous integration and continuous delivery platform.It enables teams to automate build,test and deployment processes for their applications across multiple platforms and environments.
+
+4.Azure test plans:It is a testing tool that helps teams plan,track and execute tests for their applications.It also integrates with Azure Pipelines for running automated tests.
+
+5.Azure Artifacts:It is a package management system that allows teams to create,host and share packages.It supports packages formats such as Nuget,npm.
+
+.
+
+What is branching?Types of branching?
+Branching is a version control technique that allows developers to work on different features or bug fixes concurrently without interfering with each other's code.
+Types of branching:
+
+1.Feature branching:It creates a new branch to implement a new feature or user story in the project.
+
+2.Release branching:These branches allow for preparation of a new release. And besides that, they enable the developer to perform minor bug fixes and to prepare metadata for the release.
+
+3.Hotfix branching:Hotfix branches are also meant to prepare for a release in production. the difference is that this time the release wasn't planned. Instead, it's due to necessity: a critical bug in production that must be dealt with swiftly.
+
+
+
+
+
+

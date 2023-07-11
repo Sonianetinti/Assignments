@@ -1,0 +1,235 @@
+
+-Directives are the classesn that add additional behavior to the elements.
+Directives are of three 
+1)Component directive-defined by @component
+2)Structural diirective-ngIf,ngFor,ngSwitch
+3)Attribute directive-ngStyle,ngClass,ngModel
+
+- Pipes in Angular are used for data transformation and formatting in templates.
+
+- I haven't used stored procedures in my project.
+
+- Components in Angular are the building blocks of an Angular application that encapsulate the UI and its behavior.
+
+- A partial class is a feature in some programming languages, including C#, that allows a class to be split into multiple source files.
+
+- The type of security implemented in my project depends on the specific requirements and context.
+
+- Annotations are a way to add metadata or additional information to code elements, often used in frameworks and libraries.
+
+- In Angular, components can be tested using Karma and Jasmine, which are popular testing frameworks.
+
+- I used the code-first approach because it allows for faster development and easier collaboration, where the database schema is generated from the code.
+
+- CORS (Cross-Origin Resource Sharing) is a mechanism that allows resources on a web page to be requested from another domain outside the domain from which the resource originated.
+
+- "AddScoped" is a method used in ASP.NET Core dependency injection to register a service with a scoped lifetime, which means a new instance is created for each HTTP request.
+
+- Swagger is used for documenting and testing APIs.
+
+- Web API is a framework for building HTTP services.
+
+- REST service is a web service that follows the principles of REST.
+
+- Doctype in HTML specifies the version of HTML used in the document.
+
+- Inline, internal, and external are different types of CSS styles.
+
+- Delete removes rows, truncate removes all data, drop deletes the table.
+
+- JavaScript has var, let, and const variables. Polymorphism and inheritance are OOP concepts.
+
+- Class is a blueprint for objects, structure is a lightweight data structure.
+
+- Grant and revoke are SQL commands for managing permissions.
+
+- "Doc" could refer to a document or an element/attribute in HTML.
+
+-State and props are concepts in React. State represents the internal data of a component, while props are properties passed to a component from its parent.
+- ADO.NET is a data access technology in .NET, while LINQ (Language Integrated Query) is a query language that allows querying different data sources in a unified way.
+
+- Routing is the process of determining how an application responds to a specific URL or endpoint. Routing in ASP.NET Core MVC refers to the mechanism of mapping incoming HTTP requests to controller actions and returning the appropriate responses.
+
+- Attribute routing in ASP.NET Core allows defining routes directly on the controller or action methods using attributes.
+
+- HTML tag helpers are a feature in ASP.NET Core MVC that allow generating HTML markup based on server-side code and models.
+
+- The domain of my project depends on the specific application or system being developed.
+
+- An abstract class in object-oriented programming is a class that cannot be instantiated and serves as a base for derived classes. It may contain abstract and non-abstract members.
+
+- An interface in programming defines a contract that a class can implement. It specifies a set of methods and properties that the implementing class must provide.
+
+- The main language used in Angular is TypeScript, while React primarily uses JavaScript (JSX).
+
+-A database is a structured collection of data that is organized and managed to support efficient data storage, retrieval, and manipulation.
+
+- Primary key is a unique identifier for a record in a database table, while foreign key is a field that refers to the primary key of another table, establishing a relationship between the two tables.
+
+- DML (Data Manipulation Language) statements are used to manipulate data in a database (e.g., INSERT, UPDATE, DELETE). DDL (Data Definition Language) statements are used to define or modify the structure of database objects (e.g., CREATE, ALTER, DROP). DQL (Data Query Language) statements are used to retrieve data from the database (e.g., SELECT).
+
+- Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity by eliminating data anomalies.
+
+- Overriding is the concept in object-oriented programming where a subclass provides a different implementation of a method that is already defined in its superclass.
+
+- Overloading is the concept in programming where multiple methods or functions have the same name but different parameters or argument types.
+
+- HTTPGET, HTTPPOST, HTTPPUT, HTTPDELETE, and HTTPPATCH are HTTP methods used in RESTful APIs for retrieving, creating, updating, deleting, and partially updating resources, respectively.
+
+- Entity Framework is an object-relational mapping (ORM) framework in .NET that simplifies database access by providing an abstraction layer over the database, allowing developers to work with database objects as .NET objects.
+
+- Middleware in the context of web development refers to software components that sit between a web server and the application, providing additional functionalities such as request processing, authentication, logging, and more. The sequence of middleware determines the order in which these components are executed in the request pipeline.
+
+- app.map() is not a specific method or concept in the context provided. However, in some frameworks or libraries, such as Express.js in Node.js, app.map() could refer to defining routes or mapping URL paths to corresponding handlers or middleware functions.
+- A task represents an asynchronous operation that can be executed concurrently, while a thread is a unit of execution within a process that can run concurrently with other threads.
+
+-Tag helpers are a feature in ASP.NET Core MVC that enable server-side code to participate in generating and rendering HTML tags in Razor views.
+
+- Razor syntax is a markup syntax used in ASP.NET Core MVC views to embed server-side code seamlessly within HTML. 
+
+-SQL constraints are rules or conditions applied to columns or tables to enforce data integrity and consistency, such as NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, etc.
+
+- Joins in SQL are used to combine rows from different tables based on a related column between them.
+
+- Unique key ensures that a column or set of columns in a table has unique values, primary key uniquely identifies a row in a table, and foreign key establishes a relationship between two tables.
+
+- A view in SQL is a virtual table derived from one or more tables and is based on a predefined SQL query.
+
+- MVC (Model-View-Controller) is a software architectural pattern where the application logic is divided into three components: Model (data and business logic), View (presentation layer), and Controller (handles user input, coordinates model and view).
+
+- Dependency injection is a design pattern and technique where the dependencies of a class or component are provided from external sources rather than being instantiated within the class itself.
+
+- Middleware in ASP.NET Core is software components that are placed in the HTTP request pipeline to handle requests and responses. They provide various functionalities such as authentication, logging, error handling, etc.
+
+- JWT (JSON Web Token) is a compact, URL-safe token format used for authentication and authorization. Its workflow involves generating, signing, and exchanging tokens between parties to establish and verify identity and access rights.
+
+- Exception handling is the process of catching and handling errors or exceptional conditions that occur during the execution of a program to prevent the application from crashing and provide appropriate error handling or recovery mechanisms.
+
+- A startup class is a class in .NET Core that is used to configure and initialize an application when it starts up.
+
+- Routing is the process of mapping incoming HTTP requests to the corresponding controller actions or endpoints in an application.
+
+- Entity Framework Database First (EF Db First) approach in .NET Core is a way to generate entity classes and DbContext from an existing database schema.
+
+- Some design patterns used in .NET Core include Dependency Injection, Repository, Singleton, and MVC (Model-View-Controller).
+
+- To create and use a virtual machine (VM) in Azure, you need to first create a VM resource using the Azure portal, CLI, PowerShell, or an API. Then, you can configure the VM's settings, such as size, operating system, and networking. Once the VM is created, you can connect to it and use it as you would with any other virtual machine.
+
+- JWT (JSON Web Token) is a compact and URL-safe means of representing claims between two parties. Its workflow involves the client sending a request to the server with a JWT token, the server validating the token's authenticity and integrity, and then granting access to protected resources based on the claims in the token.
+
+- Dependency Injection (DI) is a software design pattern in which the dependencies of a class are provided externally rather than being created internally. Its workflow involves registering dependencies in a container, resolving dependencies when needed, and injecting them into classes. The advantages of DI include decoupling dependencies, promoting testability, and improving maintainability and reusability of code.
+
+
+- Entity Framework is an Object-Relational Mapping (ORM) framework in .NET that simplifies database access and manipulation. It provides different approaches, including Database First, Model First, and Code First, to work with databases and entities in an application.
+
+- Attribute routing is a routing technique in ASP.NET Core where route information is specified using attributes applied to controller actions or methods instead of using a centralized routing configuration. It allows for more granular control over routing and simplifies the definition of routes.
+- Stored procedures are precompiled database queries or commands that are stored and can be executed on a database server. They are typically written in SQL and provide a way to encapsulate logic and improve performance in database operations.
+
+- Indexes in databases are data structures that improve the speed of data retrieval operations by providing quick access to specific data values. They can be of different types, such as clustered indexes, non-clustered indexes, and unique indexes.
+
+ - Repository is a design pattern that provides a way to separate the data access logic from the rest of the application.
+
+- The Repository pattern is commonly used to abstract the data access layer and provide a clean separation of concerns in an application.
+
+- Global variables in Angular can be defined by creating a file (e.g., `globals.ts`) and exporting variables from it.
+
+- In Angular, services are classes that provide specific functionality or data to different parts of the application.
+
+- In an API, a controller is responsible for handling incoming requests, processing them, and returning responses.
+
+- ADO.NET is a data access technology in ASP.NET for interacting with databases.
+
+- Docker is an open-source platform for automating the deployment, scaling, and management of applications using containerization.
+
+- In C#, we have three types of access specifiers: public, private, and protected.
+
+- An object is an instance of a class that represents a real-world entity or concept.
+
+- A class is a blueprint or template that defines the properties, methods, and behavior of objects.
+
+- Abstraction is a concept in object-oriented programming that focuses on representing essential features and hiding unnecessary details of an object or class.
+
+- Inheritance is a mechanism in object-oriented programming where a class inherits the properties and behavior of another class.
+
+- Polymorphism is the ability of an object or method to take on many forms, allowing objects of different classes to be treated as objects of a common base class.
+
+- Compile time polymorphism refers to the ability to have multiple methods with the same name but different parameters, resolved at compile time.
+
+- Static polymorphism (also known as method overloading) is when multiple methods with the same name but different parameters are defined in the same class, and the appropriate method is called based on the arguments at compile time. Dynamic polymorphism (also known as method overriding) is when a derived class overrides a method of its base class, and the appropriate method is called based on the actual object type at runtime.
+
+- Garbage collection is an automatic memory management process where the system frees up memory occupied by objects that are no longer in use.
+
+- An abstract class is a class that cannot be instantiated and serves as a base for deriving concrete (non-abstract) classes. It may contain abstract methods that must be implemented by its derived classes.
+
+- An interface is a contract that defines a set of methods and properties that a class must implement.
+
+- A superclass is a class that is inherited by other classes, providing common properties and methods to its subclasses.
+
+- Limitations of inheritance include the inability to inherit from multiple classes (C# does not support multiple inheritance), potential tight coupling between base and derived classes, and the limitations imposed by access modifiers.
+
+- A copy constructor is a constructor that creates a new object by copying the values of another object of the same class.
+
+- A destructor is a special method that is automatically called when an object is destroyed or goes out of scope, allowing for cleanup operations.
+- Exception handling is a mechanism in programming to catch and handle runtime errors or exceptional situations in a controlled manner.
+
+- Types of inheritance include single inheritance (one class inherits from one base class), multiple inheritance (one class inherits from multiple base classes, not supported in C#), multilevel inheritance (class A inherits from class B, which in turn inherits from class C), and hierarchical inheritance (multiple classes inherit from a single base class).
+
+- The difference between a class and a structure lies in their usage, default behavior, and memory allocation. Classes are reference types, whereas structures are value types that are typically used for smaller, simpler objects with less complex behavior.
+
+- It is not always necessary to create objects from a class. Classes can also contain static members, which can be accessed without creating an object instance.
+
+- Compile time polymorphism refers to method overloading, where multiple methods with the same name but different parameters are resolved at compile time. Runtime polymorphism refers to method overriding, where a derived class overrides a method of its base class, and the appropriate method is called based on the actual object type at runtime.
+
+- Encapsulation is the bundling of data and methods that operate on that data within a single unit, typically achieved through the use of classes.
+
+- The main features of object-oriented programming (OOP) include encapsulation, inheritance, polymorphism, and abstraction.
+
+- Generic collections in C# allow the creation of data structures that can store and manipulate objects of any type in a type-safe manner.
+
+- Enums in C# are used to define a set of named constants, providing a way to represent a group of related values.
+
+- Custom exceptions are user-defined exception classes that can be thrown and caught in an application to handle specific exceptional situations.
+
+- A virtual class or virtual method is marked with the "virtual" keyword, allowing derived classes to override or extend the behavior of the base class by providing their own implementation.
+
+- Exception handling is used to catch and handle runtime errors or exceptional situations in a controlled manner, preventing abrupt program termination.
+
+- Finally keyword is used in exception handling to specify a block of code that should be executed, regardless of whether an exception occurred or not.
+- Delegates are type-safe function pointers that hold references to methods and allow for decoupling of method calls from the caller.
+
+- Method hiding is a mechanism where a derived class defines a method with the same name as a method in its base class, effectively hiding the base class method.
+
+- Classes are reference types, whereas structs are value types that are typically used for smaller, simpler objects with less complex behavior.
+
+- Abstract classes can have method implementations and member variables, whereas interfaces cannot.
+
+- Access modifiers control the visibility and accessibility of types and members in C#, including public, private, protected, and internal.
+
+- Reflection is a mechanism in .NET that allows inspecting and manipulating metadata, types, and objects at runtime.
+
+- Generic collections in C# allow the creation of data structures that can store and manipulate objects of any type in a type-safe manner.
+
+- A dictionary in C# is a collection class that stores key-value pairs, allowing fast lookup and retrieval based on keys.
+
+- Queue and Stack are data structures in C# that store and manipulate elements in a first-in-first-out (FIFO) and last-in-first-out (LIFO) manner, respectively.
+
+- The List collection class in C# is a generic class that provides an ordered, index-based collection of items with dynamic resizing capabilities.
+
+- The base keyword is used in a derived class to call a method or constructor of its base class.
+
+- Multiple inheritance refers to a class inheriting from multiple base classes, which is not supported in C#.
+
+- Method overriding involves redefining a method in a derived class with the same name and signature as a method in its base class. Method hiding involves            defining a method with the same name as a method in the base class in a derived class, effectively hiding the base class method.
+
+- Static members belong to the class itself and are accessed using the class name, whereas instance members belong to individual objects of the class.
+
+- Namespaces in C# are used to organize and group related classes and types.
+
+- Multithreading in C# allows the execution of multiple threads concurrently within a single application.
+
+- Async and await keywords in C# are used for asynchronous programming to enable the execution of non-blocking operations.
+
+- Lambda expressions in C# provide a concise syntax for defining anonymous functions, which can be used in LINQ queries, event handlers, and more.
+
+
+

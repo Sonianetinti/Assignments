@@ -1,0 +1,36 @@
+using System;
+namespace insert
+{
+public static void Main(string[] args)
+{
+SqlConnection sc;
+string connectionstring = ("Server =SoniaVM;database=sample;integrated security=True");
+try
+{
+sc = new SqlConnection(connectingstring);
+sc.Open();
+Console.WriteLine("Connection established");
+Console.WriteLine("Enter employee id:");
+int ID = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter name :");
+string name = Console.ReadLine();
+Console.WriteLine("Enter salary:");
+int salary = Conert.ToInt32(Console.ReadLine());
+
+ 
+
+string insert = "insert into Employee(ID,name,salary)values("+ID+",'"+name+"',"+Salary+")";
+SqlCommand cmd = new SqlCommand(insert,sc);
+cmd.ExecuteNonQuery();
+Console.WriteLine("Data inserted ");
+sc.Close();
+}
+catch(Exception e)
+{
+Console.WriteLine(e.Message);
+}
+Console.ReadLine();
+}
+}
+}
+
